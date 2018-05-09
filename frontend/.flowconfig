@@ -1,0 +1,14 @@
+[ignore]
+.*/node_modules/.*
+
+[include]
+
+[libs]
+flow-typed
+
+[lints]
+
+[options]
+module.name_mapper='^@/\(.*\)$' -> '<PROJECT_ROOT>/\1'
+
+[strict]

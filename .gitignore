@@ -1,0 +1,13 @@
+# Editor stuff
+.*.sw[nop]
+*~
+tags
+
+# Haskell + Stack
+.stack-work/
+spock-flow-example.cabal
+
+# Frontend
+node_modules
+yarn-error.log
+/public/js

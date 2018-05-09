@@ -1,0 +1,47 @@
+name:                spock-flow-example
+version:             0.1.0.0
+github:              TODO!!
+license:             MIT
+author:              Jake Zimmerman
+maintainer:          zimmerman.jake@gmail.com
+copyright:           2018 Jake Zimmerman
+
+extra-source-files:
+- README.md
+- LICENSE
+
+# Metadata used when publishing your package
+synopsis:            Example program for working with Spock + Flow
+description:         Please see the README at <https://github.com/jez/spock-flow-example>
+category:            Web
+
+ghc-options:
+- -Wall
+- -Wcompat
+- -Wmissing-signatures
+- -Werror
+- -funbox-strict-fields
+- -O0
+# - -O2
+
+dependencies:
+- base >= 4.7 && < 5
+- Spock >= 0.11
+- blaze-html
+- mtl
+- text
+- wai
+- wai-middleware-static
+
+library:
+  source-dirs: backend/src
+
+executables:
+  spock-flow-example:
+    main:                backend/Main.hs
+    ghc-options:
+    - -threaded
+    - -rtsopts
+    - -with-rtsopts=-N
+    dependencies:
+    - spock-flow-example

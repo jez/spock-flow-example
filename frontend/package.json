@@ -1,0 +1,32 @@
+{
+  "name": "spock-flow-example",
+  "version": "0.1.0",
+  "description": "Flow, Webpack, ESLint, and Prettier boilerplate",
+  "repository": "https://github.com/jez/spock-flow-example",
+  "author": "Jake Zimmerman",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.2",
+    "babel-loader": "^7.1.4",
+    "babel-plugin-root-import": "^5.1.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-flow": "^6.23.0",
+    "codemirror": "^5.35.0",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-stripe": "^1.2.0",
+    "eslint-plugin-flowtype": "^2.46.1",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "flow-bin": "^0.68.0",
+    "flow-interfaces-chrome": "^0.4.0",
+    "prettier": "^1.11.1",
+    "style-loader": "^0.20.3",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.12",
+    "react": "^16.3.2"
+  }
+}
