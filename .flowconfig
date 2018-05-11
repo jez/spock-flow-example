@@ -1,0 +1,14 @@
+[ignore]
+.*/node_modules/.*
+
+[include]
+
+[libs]
+frontend/flow-typed
+
+[lints]
+
+[options]
+module.name_mapper='^@/\(.*\)$' -> '<PROJECT_ROOT>/frontend/\1'
+
+[strict]

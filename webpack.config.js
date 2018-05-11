@@ -26,11 +26,11 @@ module.exports = {
     ],
   },
   entry: {
-    index: './src/index.js',
+    index: 'frontend/src/index.js',
   },
   output: {
     // Dump to parent directory so that these files are accessible by Spock
-    path: path.resolve(__dirname, '../public/js'),
+    path: path.resolve(__dirname, 'public/js'),
     filename: '[name].js',
   },
 };
